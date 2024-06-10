@@ -49,7 +49,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by John Smith",
+        name: "by fatima",
         totalTime: "50 lectures (190 hrs)",
       },
     ],
@@ -63,7 +63,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Ram Gurung",
+        name: "by noor",
         totalTime: "30 lectures (125 hrs)",
       },
     ],
@@ -77,7 +77,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
+        name: "by imane",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
@@ -91,7 +91,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
+        name: "by asmaa",
         totalTime: "20 lectures (20 hrs)",
       },
     ],
@@ -105,7 +105,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        name: "by nihel",
         totalTime: "100 lectures (150 hrs)",
       },
     ],
@@ -119,7 +119,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        name: "by nahla",
         totalTime: "200 lectures (300 hrs)",
       },
     ],
@@ -133,7 +133,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Price",
+        name: "by nada",
         totalTime: "20 lectures (50 hrs)",
       },
     ],
@@ -147,7 +147,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Petter",
+        name: "by lilia",
         totalTime: "80 lectures (200 hrs)",
       },
     ],
@@ -161,7 +161,7 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Petter",
+        name: "by sara",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
@@ -256,12 +256,12 @@ export const team = [
   },
   {
     cover: "./images/team/t3.webp",
-    name: "Ph.D KACEM",
+    name: "Ph.D AMINA",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t4.webp",
-    name: "Ph.D AMIRA",
+    name: "Ph.D AYMEN",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
@@ -271,17 +271,17 @@ export const team = [
   },
   {
     cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
+    name: "Ph.D NASSIM",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
+    name: "Ph.D MARIA",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
+    name: "Ph.D AYHEM",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
 ]
