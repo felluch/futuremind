@@ -3,19 +3,22 @@
   padding: 20px 0;
   color: #fff;
 }
+
 .logo h1 {
   font-size: 35px;
   font-weight: 900;
 }
+
 .head .icon {
   margin-left: 10px;
 }
 /*--------head------------*/
+
 /*--------header------------*/
 header {
   background: linear-gradient(135deg, rgb(9, 142, 62), rgb(5, 20, 64));
   margin: 0 30px;
-  padding: 10px; /* Add some padding for better appearance */
+  padding: 40px; /* Add some padding for better appearance */
   border-radius: 10px; /* Rounded corners for a modern look */
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
   color: #fff; /* Ensure the text color contrasts with the background */
@@ -23,48 +26,86 @@ header {
   font-size: 18px; /* Increase font size */
   font-weight: bold; /* Make the text bold */
 }
+
 header .nav {
-  display: flex !important;
+  display: flex;
+  justify-content: space-between; /* Align items evenly */
 }
-header li {
-  margin-right: 40px;
-}
+
 header ul {
-  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none; /* Remove bullet points */
 }
-header ul li a {
+
+header ul li {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+header ul li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+header ul li a,
+header ul li button {
   color: #fff;
   font-weight: 500;
   transition: 0.5s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: none; /* Remove default link underline */
 }
-header ul li a:hover {
+
+header ul li a:hover,
+header ul li button:hover {
   color: #1eb2a6;
 }
+
 .start {
   background-color: #1eb2a6;
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 }
+
 .toggle {
   display: none;
 }
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
 /*--------header------------*/
+
 @media screen and (max-width: 768px) {
   .start {
     clip-path: none;
   }
+
   header {
     margin: 0;
     background-color: #1eb2a6;
     position: relative;
   }
+
   header ul.flexSB {
     display: none;
   }
+
   header ul li {
     margin-bottom: 20px;
   }
+
   .toggle {
     display: block;
     background: none;
@@ -74,6 +115,7 @@ header ul li a:hover {
     right: 0;
     top: -20px;
   }
+
   .mobile-nav {
     position: absolute;
     top: 7vh;
